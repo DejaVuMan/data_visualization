@@ -26,9 +26,23 @@ age = 18
 
 print("{} jest z Stanow Zjednoczonych i ma {} lat.".format(name,age))
 #This is the better method - easy to use, less text to type.
-print("{0} jest z Stanow Zjednoczonych i ma {1} lat.".format(name,age))
+#print("{0} jest z Stanow Zjednoczonych i ma {1} lat.".format(name,age))
 #This method also works!
-print(f"{name} jest z Stanow Zjednoczonych i ma {age} lat.")
+#print(f"{name} jest z Stanow Zjednoczonych i ma {age} lat.")
 #f-string is generally regarded as the best method - from 3.6 onward.
+#=====================================================================================
+number = 6.75645801237190378
+print(f"{number:.2f}")
+#pyformat.info
 
+#number types
+number = 5
+numberF = 5.5
+print(1+2)
+print(1-2)
+print(1*2)
+print(1/2)
+print(1//2)#Division without the remainder.
+print(3**2)#Raising numbers to a power.
+print(1%2)#Modulo
 
