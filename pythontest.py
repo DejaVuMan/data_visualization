@@ -53,5 +53,40 @@ import math
 pi = 3.15
 from math import pow, sqrt, pi #Imports every type from math
 import math as m
-m.pow()
+m.pow(6,9)
 print(m.pi)
+
+#lists
+listtest = [] #Empty List
+list2 = list() #Empty List
+list3 = [1,2,3]
+list4 = [1,"Alan",True,None,[1,2]]
+list4[1]="Bob"
+#list4[1][0] = "O" - Does not Work!
+
+matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+print(matrix[1][1])
+print(0.1+0.2==0.3)
+#print(f"{0.1:.20f}") A 64-bit system interprets numbers a bit differently than you & me!
+
+#list = list + list3
+#list += list3
+
+#dictionary
+dictionary={}
+dictionary=dict()
+dictionary3={"key":"value"}
+dictionary3['key']
+dictionary3['key']=100
+dictionary3[0]=999
+print(dictionary3)
+dictionary3.keys()
+dictionary3.values()
+print(dictionary3.items())
+
+#dict_items([('key',100),(0,999)])
