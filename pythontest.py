@@ -46,3 +46,12 @@ print(1//2)#Division without the remainder.
 print(3**2)#Raising numbers to a power.
 print(1%2)#Modulo
 
+text = "110"
+numberFromText = int(text,8)
+print(numberFromText)
+import math
+pi = 3.15
+from math import pow, sqrt, pi #Imports every type from math
+import math as m
+m.pow()
+print(m.pi)
