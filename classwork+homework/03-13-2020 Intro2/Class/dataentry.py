@@ -14,3 +14,5 @@ import sys
 print("Enter some text")
 s = sys.stdin.readline() #Reads a line of text
 print("Your entered text was: " + s)
+
+###############################################
