@@ -13,3 +13,4 @@ i=0
 while i <length:
     print(userNums[i])
     i+=1
+input('Press ENTER to exit')

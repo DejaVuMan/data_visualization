@@ -12,3 +12,5 @@ while i < length:
     i+=1
 
 print(str(totalSum))
+
+input('Press ENTER to exit')
