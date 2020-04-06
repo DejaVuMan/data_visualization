@@ -1,0 +1,2 @@
+North Central College, Computer Science, Sophomore, Artificial Intelligence
+[1, 2, 3, 4]

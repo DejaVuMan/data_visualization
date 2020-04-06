@@ -68,3 +68,55 @@ print("\n")
 # Display an entire paragraph
 print(verse)
 print("\n")
+
+input("Press Enter to Continue")
+
+# Keep in mind that python "remembers" the last position of text read from. This is why we see only the last part of the file when displaing verse from readlines().
+
+# After ending the program, python generally automatically closes the file either way.
+#
+#   We can WRITE to the file using: write(chain) - Writes data from the variable "chain."
+#   We can also use this:           writelines(list) - this writes data from a list.
+#
+#   NOTE: Example 2 - 
+
+import sys
+
+print("Enter your College, field of study, year, and degree focus: ")
+# reads data from the normal input
+data = sys.stdin.readline()
+
+# open a file
+ColDoc = open("C:\\GitRepo\\data_visualization\\classwork+homework\\04-06-2020 Lab4\\data.txt", "w+")
+
+# write to file
+ColDoc.write(data)
+
+# close the file
+ColDoc.close()
+
+# now, we create a list
+listW = []
+for x in range (1,5): #From 1 to 4
+    listW += [x]
+
+# open the file to write to
+ColDoc = open("C:\\GitRepo\\data_visualization\\classwork+homework\\04-06-2020 Lab4\\data.txt", "a+") # This time, we append to the list.
+
+# write to file
+ColDoc.writelines(str(listW))
+
+# and close the file.
+ColDoc.close()
+#
+#   NOTE: Example 3
+#
+#   We can also open files to read and write to with the help of the command "with."
+#   With this, we don't have to worry about closing the document at the end.
+#   This for loop lets us display a file, line by line.
+#
+with open("data.txt","r") as MartyDoc:
+    for line2 in MartyDoc:
+        print(line2, end="")
+
+input("\nPress ENTER to end.")
