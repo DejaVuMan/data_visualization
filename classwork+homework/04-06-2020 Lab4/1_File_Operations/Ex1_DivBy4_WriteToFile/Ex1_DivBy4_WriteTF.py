@@ -1,4 +1,4 @@
-# This file will list out all numbers divisible by 4 and list them to a document.
+# This program will list out all numbers divisible by 4 and list them to a document.
 
 ListDivis = open("C:\\GitRepo\\data_visualization\\classwork+homework\\04-06-2020 Lab4\\1_File_Operations\\Ex1_DivBy4_WriteToFile\\NumsDivisibleBy4.txt","w+")
 a = 1
